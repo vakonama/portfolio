@@ -19,41 +19,35 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 0.8vw;
 }
 
 .item {
-    flex-basis: calc(100% / 4);
     flex-grow: 1;
+    text-align: center;
 }
 
-.block {
+.insta {
+    background-color: #696969;
+}
+
+.telegram {
+    background-color: #4e4e4e;
+}
+
+.pinterest {
+    background-color: #343333;
+}
+
+.facebook {
+    background-color: #1d1d1d;
+}
+
+.icon {
     min-height: 22vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.block.instagram {
-    background-color: #707070;
-}
-
-.block.telegram {
-    background-color: #464646;
-}
-
-.block.pinterest {
-    background-color: #2a2a2a;
-}
-
-.block.facebook {
-    background-color: #151515;
-}
-
-.insta, .tg, .pinter, .fb {
-    min-width: 22vw;
-}
-
 
 .navigation {
     display: flex;
