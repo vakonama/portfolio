@@ -52,8 +52,8 @@ body {
 
 .txt-block {
     text-align: center;
-    min-height: 24vw;
-    min-width: 24vw;
+    min-height: 22vw;
+    min-width: 23vw;
 }
 
 .txt-category {
@@ -61,7 +61,7 @@ body {
     background-color: #000000bb;
     color: #ffffff;
     padding: 25px 25px;
-    margin: 35px;
+    margin: 35px 10px;
 }
 
 .navigation {
