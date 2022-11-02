@@ -1,75 +1,82 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .headline {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
+    color: #000000;
+    
 }
 
 .text {
     text-align: center;
-    font-size: 3.8em;
 }
 
-.contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.8vw;
+.name {
+    margin: 0;
+    font-size: 10vw;
 }
 
-.item {
-    flex-grow: 1;
+.vakonama {
     text-align: center;
-}
-
-.insta {
-    background-color: #696969;
+    margin-top: -10vw;
+    margin-bottom: -8vw;
+    z-index: 10;
+    opacity: 97%;
 }
 
 .telegram {
-    background-color: #4e4e4e;
+    padding-top: 1vw;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3vw;
 }
 
-.pinterest {
-    background-color: #343333;
+.me-2 {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
-.facebook {
-    background-color: #1d1d1d;
+.social {
+    width: 100%;
+    text-align: center;
+    
 }
 
 .icon {
-    min-height: 22vw;
+    width: 30px;
+    fill: #ffffff;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 4vw;
     flex-wrap: wrap;
+    height: 4vw;
 }
 
+/*.item {
+    
+}*/
+
 .click-link {
-    background-color: #000000;
+    background-color: #ffffff;
     border: none;
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.2em;
     cursor: pointer;
     width: 15vw;
     height: 4vw;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .click-link:hover {
-    background-color: #1d1d1d;
+    border: 0.5px #000000;
 }

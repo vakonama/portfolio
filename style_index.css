@@ -1,39 +1,51 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .headline {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
+    color: #000000;
+    
 }
 
 .text {
     text-align: center;
-    font-size: 3.8em;
+}
+
+.name {
+    margin: 0;
+    font-size: 10vw;
+}
+
+.vakonama {
+    text-align: center;
+    margin-top: -10vw;
+    margin-bottom: -8vw;
+    z-index: 10;
+    opacity: 97%;
 }
 
 .poster {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 22vw;
+    height: 26vw;
     background-color: #ffffff;
+    z-index: -1;
 }
 
 .eays {
     position: absolute;
     width: 100%;
-    height: 22vw;
+    height: 26vw;
     object-fit: cover;
+   
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     height: 4vw;
@@ -44,17 +56,19 @@ body {
 }*/
 
 .click-link {
-    background-color: #000000;
+    background-color: #ffffff;
     border: none;
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.2em;
     cursor: pointer;
     width: 15vw;
     height: 4vw;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .click-link:hover {
-    background-color: #1d1d1d;
+    border: 0.5px #000000;
 }

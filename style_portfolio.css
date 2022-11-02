@@ -1,18 +1,28 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .headline {
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
+    color: #000000;
+    
 }
 
 .text {
     text-align: center;
-    font-size: 3.8em;
+}
+
+.name {
+    margin: 0;
+    font-size: 10vw;
+}
+
+.vakonama {
+    text-align: center;
+    margin-top: -10vw;
+    margin-bottom: -8vw;
+    z-index: 10;
+    opacity: 97%;
 }
 
 .category {
@@ -20,71 +30,49 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0.8vw;
+    gap: 0.4vw;
 }
 
 .block {
+    flex-basis: 300px;
     flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(19, 19, 19, 0.845);
 }
 
-.block.street, .block.portrait, .block.landscape, .block.product {
-    background-size: cover;
+.album {
+    width: 100%;
 }
 
-.block.street {
-    background-image: url(img/street.JPG);
-}
-
-.block.portrait {
-    background-image: url(img/portrait.jpg);
-}
-
-.block.product {
-    background-image: url(img/product.JPG);
-}
-
-.block.landscape {
-    background-image: url(img/landscape.JPG);
-}
-
-.txt-block {
+.name-category {
     text-align: center;
-    min-height: 22vw;
-    min-width: 23vw;
-}
-
-.txt-category {
+    margin: 0;
     font-size: 25px;
-    background-color: #000000bb;
-    color: #ffffff;
-    padding: 25px 25px;
-    margin: 35px 10px;
+    color: #ffffffcf;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 4vw;
     flex-wrap: wrap;
+    height: 4vw;
 }
 
 .click-link {
-    background-color: #000000;
+    background-color: #ffffff;
     border: none;
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.2em;
     cursor: pointer;
     width: 15vw;
     height: 4vw;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .click-link:hover {
-    background-color: #1d1d1d;
+    border: 0.5px #000000;
 }
